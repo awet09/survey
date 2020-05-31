@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    
+}
+.container  {
+   width: 100%;
+   height: 990px;
+   margin: 0px;
+   padding: 0px;
+
+   background-color: rgb(221, 209, 243);
+}
+.container h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.subtitle   {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+     padding-top: 0px;
+     line-height: 0px;
+     padding-bottom: 20px;
+     padding-top:0px;
+}
+#form-box {
+    max-width: 620px;
+    height: 870px;
+    margin: auto;
+    padding: 10px;
+    background: #2196f3;
+    background-color: rgb(73, 13, 126);
+    border-radius: 3px;  
+}
+ .form-group   {
+    width: 89%;
+    margin: 29px;
+    line-height: 3px;
+}
+
+.form-group .form-input {
+    width: 100%;
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 18px ;
+    border-radius: 5px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 5px
+    
+}
+#form-box .form-group label   {
+    color: rgb(253, 254, 255);
+    font-size: 17px;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 15px;  
+}
+
+
+#Q {
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    top: 0
+}
+span    {
+    font-size: 12px;
+    font-family: italic;
+}
+.comments    {
+    width: 100%;
+    height: 100px;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.button     {
+    width: 100%;
+    background-color: #5da86a;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+}
+.option    {
+    line-height: 4px;
+}
+#Q p {
+    margin-top: 18px;
+
+}
+#Q label    {
+    line-height: 5px
+}
+#Q select   {
+    margin-bottom: 0px;
+}

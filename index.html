@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal training Survey </h1>
+        <p class="subtitle">Thank you for taking the time to help us improve our services</p>
+
+        <form id="form-box">
+            <div class="form-group">
+                <label  id="name">Name</label><br>
+                <input type="text" class="form-input" placeholder="Enter your name"><br>
+                <label  id="email">Email</label><br>
+                <input type="text" class="form-input" placeholder="Enter your Email"><br>
+                <label  id="age">Age <span>(optional)</span></label><br>
+                <input type="text" class="form-input" placeholder="Age"><br>
+                <label  id="option">Which option best describes your current role?</label><br>
+                <select id="role" class="form-input">
+                    <option value="">Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time Job">Full time Job</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select>
+                 <div  id="Q">
+                    <p >Would you recommend my training to a friend?</p>
+                    <input type="radio" id="definitley" name="training" value="definitley">
+                    <lable  for="definitley">Definitley</lable><br>
+                    <input type="radio" id="maybe" value="maybe" name="training">
+                    <lable  for="maybe">Maybe</lable><br>
+                    <input type="radio" id="not Sure" value="not Sure" name="training">
+                    <lable  for="not sure">Not Sure</lable><br>
+                    <p class="question">What is your fav workout?</p>
+               <select class="form-input">
+                   <option value="">Select an option</option>
+                   <option value="Bench Press">Bench press</option>
+                   <option value="Curls">Curls</option>
+                   <option value="Squats">Squats</option>
+               </select>
+                    <p>What would you like to see improve? <span>(Check all that apply)</span></p>
+                    <input type="checkbox" id="improve"  value="stamina" name="improve">
+                    <lable for="stamina">Stamina</lable><br>
+                    <input type="checkbox" id="improve" value="strength" name="improve">
+                    <lable for="Strength">Strength</lable><br>
+                    <input type="checkbox" id="improve" value="fat burn" name="improve">
+                    <lable for="fat burn">Fat Burn</lable><br>
+                    <input type="checkbox" id="improve" value="form" name="improve" >
+                    <lable for="form">Form</lable><br>
+                    <input type="checkbox" id="improve" value="endurance" name="improve">
+                    <lable for="endurance">Endurance</lable><br>
+                    <input type="checkbox" id="improve" value="recovery" name="improve">
+                    <lable for="recovery">Recovery</lable><br>
+                    <p class="question">Any comments or suggestions</p>
+                    <textarea class="comments"  placeholder="Enter comments here..."></textarea>
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
